@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+        <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+
+    <script defer src="main.js"></script>
+    
+
+    </head>
+
+    <body>
+        <div>
+          <label for="group">Revenue or Number of Stores</label>
+          <select id="group" class = 'group-by'>
+            <option value="stores">Number of Stores Worldwide</option>
+            <option value="revenue">Revenue in Billion U.S. Dollars Annually</option>
+          </select>
+    
+          <button class = 'sort' > Sort</button>
+    
+        </div>
+        <div class="chart">
+        </div>
+    
+        <div class="tooltip">
+        </div>
+       
+      </body>
+
+</html>
